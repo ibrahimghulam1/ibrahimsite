@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 0 0 rgb(204, 202, 202);
+    padding: 5%;
+    background-color: rgb(197, 194, 194);
+}
+
+header h1 {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+header img {
+    width: 10%;
+    border-radius: 50%;
+    height: 105px;
+    position: relative;
+    top: 120px;
+}
+
+.section {
+    width: 100%;
+    padding: 10% 15%;
+    
+}
+
+.section .left_sec {
+    padding: 6% 0% 2%;
+    box-shadow: 1px 0 0 0 rgb(216, 216, 216);
+}
+
+.headings {
+    text-decoration: underline;
+    margin: 30px auto;
+}
+
+.section .left_sec div {
+    padding: 4px;
+    margin: 5px auto;
+}
+
+.section .left_sec .language ul li, .profile ul li {
+    list-style: circle;
+}
+
+.section .right_sec {
+    padding: 6% 5%;
+}
+
+.section .right_sec .skill ul li {
+    list-style: circle;
+    font-weight: 600;
+}
+
+.section .right_sec .objective, .skill, .edu {
+    padding: 4px;
+    margin: 5px auto;
+}
+
+@media (max-width: 800px) {
+    .section {
+        margin-top: 20px;
+    }
+    .section .left_sec {
+        box-shadow: none;
+    }
+    
+    header img {
+        width: 10%;
+        border-radius: 50%;
+        height: 70px;
+        position: relative;
+        top: 80px;
+    }
+}
+
+@media (max-width: 600px) {
+    header img {
+        width: 10%;
+        border-radius: 50%;
+        height: 50px;
+        position: relative;
+        top: 50px;
+    }
+}
